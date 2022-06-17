@@ -1,6 +1,6 @@
 /* TEXT COLOR
-!!! main text color 212121 (dark-grey)
-secondary color 757575 (grey)
+text color 757575 (grey)
+title text color 212121 (dark-grey)
 accent color 2196F3 (blue) 
 text-hover color ffffff (white)
 logo color 000000 (black)
@@ -17,27 +17,34 @@ accent 2196F3 (blue)
     background-color: #ffffff;
 }
 
-.title {
-    color: #212121;
+.list {list-style: none;}
+.link {
+    text-decoration: none;
+    color: inherit;
 }
 
-.filter {
-    color: #212121;
+.title {color: #212121;
 }
-.filter:focus, .filter:focus {
+
+.logo {color: #000000;}
+.logo .part {color: #2196F3;}
+.bottom > .logo {color: #ffffff;}
+
+.navigate {color: #212121;}
+.navigate:hover, .navigate:focus, .current {color: #2196F3}
+
+
+.contact {}
+.contact:hover, .contact:focus {color: #2196F3;}
+
+.filter {color: #212121;}
+.filter:hover, .filter:focus {
     color: #ffffff;
     background-color: #2196F3;
 }
 
+.mail {color: rgba(255,255,255,.6);
+    font-style: normal;}
+.location {color: #ffffff;}
 
-.list {list-style: none;}
-.link {text-decoration: none;
-color: inherit;}
-
-.logo {color: #000000;}
-.logo .part {color: #2196F3;}
-
-.navigate {color: #212121;}
-.navigate:hover, .navigate:focus {color: #2196F3}
-
-.contact:hover, contact:focus {color: #2196F3;}
+.bottom {background-color: #2F303A;}
