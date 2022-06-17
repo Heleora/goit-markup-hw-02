@@ -7,14 +7,27 @@ logo color 000000 (black)
 address color ffffff 60% (grey-white)
 */
 /* BACKGROUND COLOR
-main E5E5E5 (white)
-footer 2F303A (dark-gray)
+main ffffff (white)
+footer, hero 2F303A (dark-gray)
 accent 2196F3 (blue)
+accent hero hover 188CE8
 */
 
+:root {
+    --text-color: #757575;
+    --title-text-color: #212121;
+    --text-color-secondary: #ffffff;
+    --main-background-color: #ffffff;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --text-address-color: rgb(255,255,255,.6);
+    --background-hero-footer: #2F303A;
+    --accent-color-hover: #188CE8;
+}
+
 .page {
-    color: #757575;
-    background-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--main-background-color);
 }
 
 .list {list-style: none;}
@@ -23,28 +36,36 @@ accent 2196F3 (blue)
     color: inherit;
 }
 
-.title {color: #212121;
+.title {color: var(--title-text-color);
 }
 
-.logo {color: #000000;}
-.logo .part {color: #2196F3;}
-.bottom > .logo {color: #ffffff;}
+.hero {color: var(--text-color-secondary);
+    background-color: var(--background-hero-footer);
+}
+.hero-title {}
 
-.navigate {color: #212121;}
-.navigate:hover, .navigate:focus, .current {color: #2196F3}
+.hero-button {color: inherit; background-color: var(--accent-color);}
+.hero-button:hover, .hero-button:focus {background-color: var(--accent-color-hover);} 
+
+.logo {color: var(--logo-color);}
+.logo .part {color: var(--accent-color);}
+.bottom > .logo {color: var(--text-color-secondary);}
+
+.navigate {color: var(--title-text-color);}
+.navigate:hover, .navigate:focus, .current {color: var(--accent-color);}
 
 
 .contact {}
-.contact:hover, .contact:focus {color: #2196F3;}
+.contact:hover, .contact:focus {color: var(--accent-color);}
 
-.filter {color: #212121;}
+.filter {color: var(--title-text-color);}
 .filter:hover, .filter:focus {
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--text-color-secondary);
+    background-color: var(--accent-color);
 }
 
 .mail {color: rgba(255,255,255,.6);
     font-style: normal;}
-.location {color: #ffffff;}
+.location {color: var(--text-color-secondary);}
 
-.bottom {background-color: #2F303A;}
+.bottom {background-color: var(--background-hero-footer);}
