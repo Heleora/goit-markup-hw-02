@@ -1,0 +1,43 @@
+/* TEXT COLOR
+!!! main text color 212121 (dark-grey)
+secondary color 757575 (grey)
+accent color 2196F3 (blue) 
+text-hover color ffffff (white)
+logo color 000000 (black)
+address color ffffff 60% (grey-white)
+*/
+/* BACKGROUND COLOR
+main E5E5E5 (white)
+footer 2F303A (dark-gray)
+accent 2196F3 (blue)
+*/
+
+.page {
+    color: #757575;
+    background-color: #ffffff;
+}
+
+.title {
+    color: #212121;
+}
+
+.filter {
+    color: #212121;
+}
+.filter:focus, .filter:focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+
+.list {list-style: none;}
+.link {text-decoration: none;
+color: inherit;}
+
+.logo {color: #000000;}
+.logo .part {color: #2196F3;}
+
+.navigate {color: #212121;}
+.navigate:hover, .navigate:focus {color: #2196F3}
+
+.contact:hover, contact:focus {color: #2196F3;}
