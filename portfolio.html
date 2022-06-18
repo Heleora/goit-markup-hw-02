@@ -4,93 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>WebStudio portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="page">
+<body>
 <header>
     <nav>
-        <a class="link logo" href="/"><span class="part">Web</span>Studio</a>
-        <ul class="list">
-            <li><a class="link navigate" href="/">Студия</a></li>
-            <li><a class="link navigate current" href="/portfolio.html">Портфолио</a></li>
-            <li><a class=" link navigate" href="#">Контакты</a></li>
+        <a class="logo" href="/"><span class="part">Web</span>Studio</a>
+        <ul>
+            <li><a class="navigate" href="/">Студия</a></li>
+            <li><a class="navigate current" href="/portfolio.html">Портфолио</a></li>
+            <li><a class=" navigate" href="#">Контакты</a></li>
         </ul>
     </nav>
-    <ul class="list">
-        <li><a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <ul>
+        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
 </header>
 <main>
    <section>
-    <h1>Наши работы</h1>
+    <h1 class="title">Наши работы</h1>
     <!-- Filters-buttons -->
-    <ul class="list">
-     <li><button class="link filter" type="button">Все</button></li>
-     <li><button class="link filter" type="button">Веб-сайты</button></li>
-     <li><button class="link filter" type="button">Приложения</button></li>
-     <li><button class="link filter" type="button">Дизайн</button></li>
-     <li><button class="link filter" type="button">Маркетинг</button></li>
+    <ul>
+     <li><button class="filter" type="button">Все</button></li>
+     <li><button class="filter" type="button">Веб-сайты</button></li>
+     <li><button class="filter" type="button">Приложения</button></li>
+     <li><button class="filter" type="button">Дизайн</button></li>
+     <li><button class="filter" type="button">Маркетинг</button></li>
      </ul>
 
     <!-- Workes -->
-     <ul class="list">
+     <ul>
         <li>
             <img src="./images/1-site.jpg" alt="Пример веб-страницы" width="370">
-            <h2 class="title">Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title works-title">Технокряк</h2>
+            <p class="works-text">Веб-сайт</p>
         </li>
         <li>
             <img src="./images/2-poster.jpg" alt="Плакат баскетбольной лиги" width="370">
-            <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
-            <p>Дизайн</p>
+            <h2 class="title works-title">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
+            <p class="works-text">Дизайн</p>
         </li>
         <li>
             <img src="./images/3-seafood.jpg" alt="Лого ресторана" width="370">
-            <h2 class="title">Ресторан <span lang="en">Seafood</span> </h2>
-            <p>Приложение</p>
+            <h2 class="title works-title">Ресторан <span lang="en">Seafood</span> </h2>
+            <p class="works-text">Приложение</p>
         </li>
         <li>
             <img src="./images/4-prime.jpg" alt="Наушники" width="370">
-            <h2 class="title">Проект <span lang="en">Prime</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="title works-title">Проект <span lang="en">Prime</span></h2>
+            <p class="works-text">Маркетинг</p>
         </li>
         <li>
             <img src="./images/5-boxes.jpg" alt="Две коробки" width="370">
-            <h2 class="title">Проект <span lang="en">Boxes</span> </h2>
-            <p>Приложение</p>
+            <h2 class="title works-title">Проект <span lang="en">Boxes</span> </h2>
+            <p class="works-text">Приложение</p>
         </li>
         <li>
             <img src="./images/6-inspiration.jpg" alt="Тёмная тема веб-страницы" width="370">
-            <h2 class="title" lang="en">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title works-title" lang="en">Inspiration has no Borders</h2>
+            <p class="works-text">Веб-сайт</p>
         </li>
         <li>
             <img src="./images/7-limited.jpg" alt="Иллюстрации в книге" width="370">
-            <h2 class="title">Издание <span lang="en">Limited Edition</span> </h2>
-            <p>Дизайн</p>
+            <h2 class="title works-title">Издание <span lang="en">Limited Edition</span> </h2>
+            <p class="works-text">Дизайн</p>
         </li>
         <li>
             <img src="./images/8-lab.jpg" alt=" Ярлык LabElTag" width="370">
-            <h2 class="title">Проект <span lang="en"> LAB</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="title works-title">Проект <span lang="en"> LAB</span></h2>
+            <p class="works-text">Маркетинг</p>
         </li>
         <li>
             <img src="./images/9-growing.jpg" alt="Страница приложения на ноутбуке" width="370">
-            <h2 class="title" lang="en">Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="title works-title" lang="en">Growing Business</h2>
+            <p class="works-text">Приложение</p>
         </li>
     </ul>
    </section>
 </main>
-<footer class="bottom">
-    <a class="link logo" href="/"><span class="part">Web</span>Studio</a>
+<footer>
+    <a class="logo" href="/"><span class="part">Web</span>Studio</a>
     <address>
         <p class="mail location">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list">
-            <li><a class="link contact mail" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="link contact mail" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul>
+            <li><a class="contact mail" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="contact mail" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
 </footer>
