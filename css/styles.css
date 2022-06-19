@@ -97,6 +97,7 @@ header {background-color: var(--background-header);
 
 .hero-button {color: inherit; background-color: var(--accent-color);
     font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;}
@@ -134,6 +135,8 @@ footer {background-color: var(--background-hero-footer);
 
 footer>.logo {color: var(--text-color-secondary);}
 
-.location {color: var(--text-color-secondary);}
+
 .mail {color: rgba(255,255,255,.6);
     font-style: normal;}
+.location {color: var(--text-color-secondary);}
+
