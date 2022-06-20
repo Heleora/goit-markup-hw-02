@@ -121,10 +121,12 @@ header {background-color: var(--background-header);
 .works-card {background-color: var(--background-card);}
 .works-card-title {font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+    text-align: center;}
 .works-card-text {font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    text-align: center;}
 
 
 
@@ -140,3 +142,14 @@ footer>.logo {color: var(--text-color-secondary);}
     font-style: normal;}
 .location {color: var(--text-color-secondary);}
 
+
+.container {width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    background-color: aqua;
+}
+
+.hero > .container {height: 600px;}
+
+h1, h2, h3, h4, p {margin: 0;}
+ul {margin: 0; padding: 0;}
